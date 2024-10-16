@@ -6,22 +6,169 @@ body {
     color: #333;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+
+.go-back {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top */
+    right: 20px; /* Aligns the button to the right within the container */
+    font-size: 1em; /* Adjust font size as needed */
+}
+
+
+.whatsapp-btn {
+    display: inline-flex; /* Allows for vertical centering of the icon and text */
+    align-items: center; /* Vertically center the content */
+    padding: 10px 20px;
+    background-color: #25D366; /* WhatsApp brand color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add spacing above */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+
+.whatsapp-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    margin-left: 10px; /* Space between text and icon */
+}
+
+.social-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    margin-left: 10px; /* Space between text and icon */
+}
+
+.youtube-btn {
+    display: inline-flex; /* Align icon and text */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF0000; /* YouTube brand color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.youtube-btn:hover {
+    background-color: #C70000; /* Darker red on hover */
+}
+
+.gmail-btn {
+    display: inline-flex; /* Align icon and text */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #DB4437; /* Gmail brand color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.gmail-btn:hover {
+    background-color: #A40020; /* Darker red on hover */
+}
+
+.linkedin-btn {
+    display: inline-flex; /* Align icon and text */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0077B5; /* LinkedIn brand color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.linkedin-btn:hover {
+    background-color: #005582; /* Darker blue on hover */
+}
+
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    text-align: center;
+    text-align: right; /* Keep text right-aligned for Hebrew */
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     overflow: hidden;
 }
 
+.profile-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center the profile section horizontally */
+    margin-bottom: 20px; /* Space below the profile section */
+}
+
+.profile-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%; /* Make the image circular */
+    margin-left: 10px; /* Space between image and text */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    justify-content: center; /* Center buttons horizontally */
+    margin-bottom: 20px; /* Space below the contact buttons */
+}
+
+/* Keep text aligned to the right for all other content */
+.container p {
+    text-align: right; /* Ensure the paragraph remains right-aligned */
+}
+
+.contact-buttons a {
+    margin: 5px; /* Space between buttons */
+}
+
+
+
+
 h1 {
     color: #00796b;
     font-size: 2.5em;
     margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+}
+
+h2 {
+    color: #00705d; /* Darker shade for H2 */
+    font-size: 2em; /* Adjust size as needed */
+    margin: 20px 0; /* Spacing above and below the heading */
+    text-align: center; /* Center the heading */
 }
 
 p {
@@ -44,6 +191,64 @@ iframe:hover {
     transform: scale(1.02);
 }
 
+ul {
+    list-style: none; /* Remove default bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+    direction: rtl; /* Ensure alignment for Hebrew text */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+li {
+    margin: 0 15px; /* Space between items */
+    position: relative; /* To position bullet points */
+}
+
+li::before {
+    content: "•"; /* Unicode character for bullet */
+    position: absolute; /* Position the bullet relative to the list item */
+    right: 100%; /* Place the bullet before the list item */
+    margin-right: 10px; /* Space between bullet and item text */
+    color: #00796b; /* Bullet color, adjust as needed */
+    font-size: 1.2em; /* Size of the bullet */
+    line-height: 1.2; /* Align bullet with text */
+}
+
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the video cards */
+    margin-top: 20px;
+}
+
+.video-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px; /* Fixed width for video cards */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 200px; /* Fixed height for the video */
+}
+
+.video-card h3 {
+    margin: 10px;
+    font-size: 1.2em;
+    color: #00796b; /* Same color as your h1 */
+}
+
+.video-card p {
+    margin: 0 10px 10px;
+    color: #666;
+}
+
 /* Media Query for Tablets */
 @media (max-width: 768px) {
     h1 {
@@ -54,6 +259,15 @@ iframe:hover {
     }
     iframe {
         height: 300px;
+    }
+    ul {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .video-gallery {
+        flex-direction: column; /* Stack vertically on smaller screens */
     }
 }
 
@@ -67,5 +281,8 @@ iframe:hover {
     }
     iframe {
         height: 250px;
+    }
+    .video-gallery {
+        flex-direction: column; /* Stack vertically on smaller screens */
     }
 }
