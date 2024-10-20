@@ -6,12 +6,64 @@
     <title>ברוכים הבאים - טוני</title>
     <link rel="stylesheet" href="styles.css">
     
+    
 </head>
 <body>
     <div class="container">
+
+        <!-- Burger Menu Button -->
+        <div class="burger-menu">
+            <span class="burger-icon">&#9776;</span>
+        </div>
+
+        <!-- Side Menu -->
+        <div id="side-menu" class="side-menu">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">&times;</a>
+
+
+            <!-- Expandable Universities Section -->
+            <h2 class="expandable-header" onclick="toggleInMenu('universities-list')">מוסדות לימוד</h2>
+            <ul id="universities-list" class="collapsible-list">
+                <li><a href="universities/HIT/HIT.html">HIT דף המכללה</a></li>
+                <li><a href="#">University 2</a></li>
+                <li><a href="#">University 3</a></li>
+            </ul>
+
+
+            <!-- Expandable Contact Section -->
+            <h2 class="expandable-header" onclick="toggleInMenu('contact-buttons')">צרו קשר</h2>
+
+            <div id="contact-buttons" class="collapsible-list">
+                <div class="contact-buttons burger-contact-buttons">
+                    <a class="whatsapp-btn" href="https://wa.me/+972522569089" target="_blank">
+                        <img src="resources/whatssap_img.jpg" alt="WhatsApp" class="social-icon">
+                    </a>
+                    <a class="youtube-btn" href="https://www.youtube.com/@Programming_With_Tony" target="_blank">
+                        <img src="resources/youtube_img.jfif" alt="YouTube" class="social-icon">
+                    </a>
+                    <a class="gmail-btn" href="mailto:programmingwithtony@gmail.com">
+                        <img src="resources/gmail_img.png" alt="Gmail" class="social-icon">
+                    </a>
+                    <a class="linkedin-btn" href="https://www.linkedin.com/in/tony-hasson/" target="_blank">
+                        <img src="resources/linkedin_img.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+            </div>
+
+
+            <ul>
+                <li><a href="#about-me" class="burger-link" onclick="closeMenu()">אודות</a></li> <!-- New About Me Link -->
+            </ul>
+          
+        </div>
+
+
+
+
+
         <h1>Programming with Tony</h1>
         
-        <div class="profile-container">
+        <div class="profile-container" id="about-me">
             <img src="resources/profile_image.jpg" alt="Tony's Profile" class="profile-image"> <!-- Add your profile image path -->
             <p>
                 ,שלום, אני טוני, מורה פרטי למדעי המחשב<br>
@@ -26,34 +78,7 @@
             </p>
         </div>
 
-        <div class="contact-buttons">
-            <!-- WhatsApp Contact Button -->
-            <a class="whatsapp-btn" href="https://wa.me/+972522569089" target="_blank">
-                <img src="resources/whatssap_img.jpg" alt="WhatsApp" class="whatsapp-icon">
-                צור קשר בוואטסאפ
-            </a>
 
-            <!-- YouTube Contact Button -->
-            <a class="youtube-btn" href="https://www.youtube.com/@Programming_With_Tony" target="_blank">
-                <img src="resources/youtube_img.jfif" alt="YouTube" class="social-icon">
-                יוטיוב
-            </a>
-
-            <!-- Gmail Contact Button -->
-            <a class="gmail-btn" href="mailto:programmingwithtony@gmail.com">
-                <img src="resources/gmail_img.png" alt="Gmail" class="social-icon">
-                ג'ימייל
-            </a>
-
-            <!-- LinkedIn Contact Button -->
-            <a class="linkedin-btn" href="https://www.linkedin.com/in/tony-hasson/" target="_blank">
-                <img src="resources/linkedin_img.png" alt="LinkedIn" class="social-icon">
-                לינקדאין
-            </a>
-        </div>
-
-        <!-- Link to HIT Page -->
-        <a href="universities/HIT/HIT.html" class="btn">HIT דף המכללה </a>
         
         <h2> סרטונים חינמיים </h2>
 
@@ -75,5 +100,8 @@
             </div>
         </div>
     </div>
+
+
+    <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -111,6 +116,92 @@ body {
 }
 
 
+
+
+/* Burger Menu Icon */
+.burger-menu {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.burger-icon {
+    color: #00796b;
+}
+
+/* Side Menu Styling */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #00796b; 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+.side-menu h2{
+
+    color: #fff9c4; /* Darker shade for H2 */
+    font-size: 2em; /* Adjust size as needed */
+    margin: 20px 0; /* Spacing above and below the heading */
+    text-align: center; /* Center the heading */
+}
+
+
+.side-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover {
+    background-color: #004d40;
+}
+
+.side-menu .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    color: white;
+}
+
+/* When the side menu is open */
+.side-menu.open {
+    width: 250px;
+}
+
+
+/* Initial state of the universities list - hidden */
+.collapsible-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+/* When the list is expanded */
+.collapsible-list.expanded {
+    max-height: 300px; /* Adjust depending on list size */
+}
+
+/* Optional: change cursor style for clickable headers */
+.expandable-header {
+    cursor: pointer;
+}
+
+
+
+
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -144,6 +235,44 @@ body {
     justify-content: center; /* Center buttons horizontally */
     margin-bottom: 20px; /* Space below the contact buttons */
 }
+
+
+
+/* Contact Buttons inside Burger Menu - Horizontal Layout */
+.burger-contact-buttons {
+    display: flex; /* Align logos in a row */
+    justify-content: center; /* Center the logos */
+    gap: 20px; /* Space between each logo */
+    margin-top: 10px;
+}
+
+.burger-contact-buttons a {
+    display: inline-block; /* Make the logos clickable */
+}
+
+.burger-contact-buttons img {
+    width: 40px; /* Set the size of the logos */
+    height: 40px;
+    transition: transform 0.3s; /* Add a hover effect */
+}
+
+.burger-contact-buttons img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.burger-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Customize the link color */
+    padding: 10px;
+    display: block;
+}
+
+.burger-link:hover {
+    background-color: #f0f0f0; /* Add a hover effect */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+
 
 /* Keep text aligned to the right for all other content */
 .container p {
