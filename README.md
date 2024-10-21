@@ -7,6 +7,7 @@ next steps:
     * design wise -
         .1. change title of website
         .2. buy a domain for the website
+        .3. better colors
     * content wise -
         .1.  write about the paid content
 

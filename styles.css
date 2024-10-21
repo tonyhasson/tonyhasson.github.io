@@ -318,26 +318,26 @@ body {
 .institutions-section {
     text-align: center;
     padding: 50px 0;
-    background-color: #f9f9f9; /* Light background color */
+    background-color: #f9f9f9;
 }
 
 .institutions-section h2 {
     font-size: 2.5rem;
-    color: #00796b; /* Same color as the burger menu */
+    color: #00796b;
     margin-bottom: 30px;
 }
 
 .institutions-gallery {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .institution-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 250px;
     padding: 20px;
     text-align: center;
@@ -346,7 +346,7 @@ body {
 
 .institution-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .institution-card img {
@@ -361,14 +361,10 @@ body {
     margin-bottom: 10px;
 }
 
-
 .institution-card p {
     font-size: 1rem;
     color: #666;
     margin-bottom: 20px;
-    text-align: center;
-    margin: 0 auto; /* Centers the element by setting auto margins */
-
 }
 
 .institution-card .btn {
@@ -382,8 +378,29 @@ body {
 }
 
 .institution-card .btn:hover {
-    background-color: #005f55; /* Darker green on hover */
+    background-color: #005f55;
 }
+
+/* Courses List */
+.courses-list {
+    display: none; /* Initially hidden */
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.courses-list li {
+    background-color: #f0f0f0;
+    padding: 8px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Show courses list when active */
+.courses-list.active {
+    display: block;
+}
+
 
 
 

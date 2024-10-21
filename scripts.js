@@ -14,6 +14,13 @@ function toggleInMenu(elementID) {
     list.classList.toggle('expanded');
 }
 
+// Function to toggle courses list visibility
+function toggleCourses(elementID) {
+    const coursesList = document.getElementById(elementID);
+    coursesList.classList.toggle('active');
+}
+
+
 
 // Add event listener for the burger menu icon
 document.querySelector('.burger-icon').addEventListener('click', openMenu);

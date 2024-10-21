@@ -111,23 +111,43 @@
         <div class="institutions-section">
             <h2>מוסדות לימוד</h2>
             <div class="institutions-gallery">
+                <!-- HIT Institution -->
                 <div class="institution-card">
                     <img src="resources/HIT_Logo_img.png" alt="HIT Logo">
                     <h3>HIT</h3>
                     <p>המכון הטכנולוגי חולון</p>
-                    <a href="universities/HIT/HIT.html" class="btn">קורסים במוסד זה</a>
+                    <a href="javascript:void(0)" class="btn" onclick="toggleCourses('hit-courses')">קורסים במוסד זה</a>
+                    <ul id="hit-courses" class="courses-list">
+                        <li>מבוא למדעי המחשב</li>
+                        <li>סדנה מתקדמת</li>
+                        <li>תכנות מונחה עצמים</li>
+                    </ul>
                 </div>
+
+                <!-- University 2 -->
                 <div class="institution-card">
                     <img src="resources/university2_logo.png" alt="University 2 Logo">
                     <h3>University 2</h3>
                     <p>אוניברסיטת תל אביב</p>
-                    <a href="#" class="btn">קורסים במוסד זה</a>
+                    <a href="javascript:void(0)" class="btn" onclick="toggleCourses('university2-courses')">קורסים במוסד זה</a>
+                    <ul id="university2-courses" class="courses-list">
+                        <li>Course 1</li>
+                        <li>Course 2</li>
+                        <li>Course 3</li>
+                    </ul>
                 </div>
+
+                <!-- University 3 -->
                 <div class="institution-card">
                     <img src="resources/university3_logo.png" alt="University 3 Logo">
                     <h3>University 3</h3>
                     <p>האוניברסיטה העברית</p>
-                    <a href="#" class="btn">קורסים במוסד זה</a>
+                    <a href="javascript:void(0)" class="btn" onclick="toggleCourses('university3-courses')">קורסים במוסד זה</a>
+                    <ul id="university3-courses" class="courses-list">
+                        <li>Course 1</li>
+                        <li>Course 2</li>
+                        <li>Course 3</li>
+                    </ul>
                 </div>
             </div>
         </div>
