@@ -3,6 +3,7 @@ function openMenu() {
     document.getElementById('side-menu').classList.add('open');
 }
 
+
 // Function to close the side menu
 function closeMenu() {
     document.getElementById('side-menu').classList.remove('open');

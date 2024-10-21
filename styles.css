@@ -120,11 +120,12 @@ body {
 
 /* Burger Menu Icon */
 .burger-menu {
-    position: absolute;
+    position: fixed; /* Change to fixed for sticky behavior */
     top: 15px;
     right: 15px;
     font-size: 30px;
     cursor: pointer;
+    z-index: 1001; /* Ensure the icon is above other content */
 }
 
 .burger-icon {
@@ -138,21 +139,20 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #00796b; 
+    background-color: #00796b;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: width 0.5s; /* Smooth transition for width */
     padding-top: 60px;
     color: white;
+    z-index: 1000; /* Keep the menu above other elements */
 }
 
-.side-menu h2{
-
+.side-menu h2 {
     color: #fff9c4; /* Darker shade for H2 */
     font-size: 2em; /* Adjust size as needed */
     margin: 20px 0; /* Spacing above and below the heading */
     text-align: center; /* Center the heading */
 }
-
 
 .side-menu a {
     padding: 10px 15px;
@@ -177,8 +177,9 @@ body {
 
 /* When the side menu is open */
 .side-menu.open {
-    width: 250px;
+    width: 250px; /* Width when open */
 }
+
 
 
 /* Initial state of the universities list - hidden */
