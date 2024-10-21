@@ -229,6 +229,37 @@ body {
     margin-right: 20px; /* Space between image and text */
 }
 
+.recommendation-section {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #f0f4f3;
+    border-radius: 10px;
+}
+
+.recommendation-section h2 {
+    font-size: 2em;
+    color: #00796b; /* Matches your overall theme */
+    margin-bottom: 15px;
+}
+
+.recommendation-section p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 auto; /* Center the paragraph horizontally */
+    width: 80%; /* Adjust width to control the size of the paragraph block */
+    max-width: 700px; /* Optional max width for larger screens */
+}
+
+.recommendation-photo {
+    max-width: 80%; /* Makes the image responsive */
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+
+
 .contact-buttons {
     display: flex;
     flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
@@ -282,6 +313,78 @@ body {
 .contact-buttons a {
     margin: 5px; /* Space between buttons */
 }
+
+
+.institutions-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.institutions-section h2 {
+    font-size: 2.5rem;
+    color: #00796b; /* Same color as the burger menu */
+    margin-bottom: 30px;
+}
+
+.institutions-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.institution-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.institution-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.institution-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.institution-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.institution-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto; /* Centers the element by setting auto margins */
+
+}
+
+.institution-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.institution-card .btn:hover {
+    background-color: #005f55; /* Darker green on hover */
+}
+
 
 
 
