@@ -2,6 +2,12 @@
 
 
 next steps:
+
+.0. first things first - think how to "make it ready" for delivery. 
+    * design wise
+    * content wise - write about the paid content
+
+
 .1. make the other HIT pages like the oop page
 .2. add more free content already available
 .3. add info about the paid content available , make it appealing
