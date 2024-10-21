@@ -381,13 +381,37 @@ body {
     background-color: #005f55;
 }
 
+
+/* Button styles for courses */
+.course-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.course-btn:hover {
+    background-color: #005f55; /* Darker green on hover */
+}
+
 /* Courses List */
 .courses-list {
     display: none; /* Initially hidden */
     list-style-type: none;
     padding: 0;
     margin-top: 10px;
+
 }
+
+
 
 .courses-list li {
     background-color: #f0f0f0;
@@ -396,13 +420,33 @@ body {
     border-radius: 4px;
 }
 
-/* Show courses list when active */
-.courses-list.active {
-    display: block;
+/* Videos List */
+.videos-list {
+    display: none; /* Initially hidden */
+    list-style-type: none;
+    padding-left: 20px; /* Indent to distinguish from course items */
+    margin-top: 5px;
+}
+
+.videos-list li {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
 }
 
 
 
+/* Show lists when active */
+.courses-list.active,
+.videos-list.active {
+    display: block;
+}
+
+
+.institution-card .btn:hover {
+    background-color: #005f55;
+}
 
 
 

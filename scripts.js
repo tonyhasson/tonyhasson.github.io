@@ -20,6 +20,11 @@ function toggleCourses(elementID) {
     coursesList.classList.toggle('active');
 }
 
+// Function to toggle videos list visibility
+function toggleVideos(elementID) {
+    const videosList = document.getElementById(elementID);
+    videosList.classList.toggle('active');
+}
 
 
 // Add event listener for the burger menu icon
