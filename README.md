@@ -4,8 +4,11 @@
 next steps:
 
 .0. first things first - think how to "make it ready" for delivery. 
-    * design wise
-    * content wise - write about the paid content
+    * design wise -
+        .1. change title of website
+        .2. buy a domain for the website
+    * content wise -
+        .1.  write about the paid content
 
 
 .1. make the other HIT pages like the oop page
@@ -19,3 +22,8 @@ next steps:
 .9. add back home button
 .10. add burger in every page
 .11. make the pages more scalable.
+
+
+# recommendation section
+.1. make the photos clickable and enlarge them
+.2. add more photos that you can slide , infinite loop.
