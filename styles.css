@@ -543,6 +543,80 @@ li::before {
     color: #666;
 }
 
+
+/* Contact Section Styling */
+.contact-section {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+    color: #00796b;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+.icon-button {
+    background: none; /* Remove default button background */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 0; /* Remove padding */
+    outline: none; /* Remove outline on focus */
+}
+
+.icon {
+    width: 100px; /* Set the icon size */
+    height: 100px; /* Set the icon size */
+    transition: transform 0.3s; /* Add transition effect */
+}
+
+.icon-button:hover .icon {
+    transform: scale(1.1); /* Scale up the icon on hover */
+}
+
+
 /* Media Query for Tablets */
 @media (max-width: 768px) {
     h1 {
