@@ -27,6 +27,7 @@ next steps:
 .10. add burger in every page
 .11. make the pages more scalable.
 .12. maybe change the burger to the top
+.13. sort the html +  clean the css
 
 
 # recommendation section
