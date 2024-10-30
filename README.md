@@ -15,6 +15,7 @@ next steps:
         .3. add info about the other data availble (sapir)
 
 
+.13. sort the html +  clean the css
 .1. make the other HIT pages like the oop page
 .2. add more free content already available
 .3. add info about the paid content available , make it appealing
@@ -27,7 +28,6 @@ next steps:
 .10. add burger in every page
 .11. make the pages more scalable.
 .12. maybe change the burger to the top
-.13. sort the html +  clean the css
 
 
 # recommendation section
