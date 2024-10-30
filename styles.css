@@ -11,6 +11,14 @@ body {
     color: #333;
 }
 
+footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -599,21 +607,29 @@ li::before {
 
 
 .icon-button {
-    background: none; /* Remove default button background */
-    border: none; /* Remove default border */
-    cursor: pointer; /* Change cursor to pointer */
-    padding: 0; /* Remove padding */
-    outline: none; /* Remove outline on focus */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    display: inline-flex; /* Centers the icon within the button */
 }
 
 .icon {
-    width: 100px; /* Set the icon size */
-    height: 100px; /* Set the icon size */
-    transition: transform 0.3s; /* Add transition effect */
+    width: 80px; /* Default icon size */
+    height: 80px;
+    border-radius: 50%; /* Circular icon button */
+    transition: transform 0.3s, background-color 0.3s;
+    /* background-color: #25D366; WhatsApp brand color or adjust per icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-.icon-button:hover .icon {
-    transform: scale(1.1); /* Scale up the icon on hover */
+.icon:hover {
+    transform: scale(1.1); /* Hover effect */
+    background-color: #128C7E; /* Darker on hover */
 }
 
 
@@ -637,6 +653,10 @@ li::before {
     .video-gallery {
         flex-direction: column; /* Stack vertically on smaller screens */
     }
+    .icon {
+        width: 60px; /* Adjust icon size for tablets */
+        height: 60px;
+    }
 }
 
 /* Media Query for Mobile Devices */
@@ -652,5 +672,9 @@ li::before {
     }
     .video-gallery {
         flex-direction: column; /* Stack vertically on smaller screens */
+    }
+    .icon {
+        width: 50px; /* Adjust icon size for mobile */
+        height: 50px;
     }
 }
