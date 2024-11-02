@@ -188,6 +188,7 @@
 
 .image-gallery {
     display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically within the section */
     gap: 10px; /* Space between images */
