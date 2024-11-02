@@ -113,6 +113,7 @@ ul {
     border-radius: 5px; /* Rounded corners for buttons */
     text-decoration: none; /* Remove underline */
     transition: background-color 0.3s; /* Transition for hover effect */
+    margin-bottom: 10px; /* Adjust the distance */
 }
 
 .lesson-link:hover {
