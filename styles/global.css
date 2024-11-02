@@ -1,3 +1,7 @@
+@import url('variables.css');
+
+
+
 html {
     scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
 }
@@ -7,13 +11,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color-middle);
 }
 
 footer {
-    background: #222;
-    color: #bbb;
+    background: var(--footer-color);
+    color: var(--text-color-bright);
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
@@ -22,21 +26,21 @@ footer {
 
 
 h1 {
-    color: #00796b;
+    color: var(--primary-color);
     font-size: 2.5em;
     margin-bottom: 10px;
     text-align: center; /* Center the heading */
 }
 
 h2 {
-    color: #00705d; /* Darker shade for H2 */
+    color: var(--primary-color-dark); /* Darker shade for H2 */
     font-size: 2em; /* Adjust size as needed */
     margin: 20px 0; /* Spacing above and below the heading */
     text-align: center; /* Center the heading */
 }
 
 p {
-    color: #666;
+    color: var(--text-color-middle);
     font-size: 1.1em;
     margin-bottom: 30px;
     line-height: 1.6;
@@ -75,7 +79,7 @@ li::before {
     position: absolute; /* Position the bullet relative to the list item */
     right: 100%; /* Place the bullet before the list item */
     margin-right: 10px; /* Space between bullet and item text */
-    color: #00796b; /* Bullet color, adjust as needed */
+    color: var(--primary-color);
     font-size: 1.2em; /* Size of the bullet */
     line-height: 1.2; /* Align bullet with text */
 }

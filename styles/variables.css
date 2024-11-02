@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #0B3D91; 
+    --primary-color-dark: #0A3072; 
+    --secondary-color: #E1E4E8; 
+    --text-color-dark:#333;
+    --text-color-middle: #666; /* Text color */
+    --text-color-bright:#bbb;
+    --background-color: #F0F4FF; 
+    --card-background-color: #f0f4f3; 
+    --lesson-topics-background: #0B3D91; 
+    --lesson-background-color: #F0F4FF; 
+    --price-background: #F0F4FF; 
+    --price-background-border: #0A3072; 
+    --bold-price-color: #2F2F2F; 
+    --icon-hover-color: #0B3D91; 
+    --footer-color: #2F2F2F; 
+}

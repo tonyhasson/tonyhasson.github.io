@@ -1,7 +1,10 @@
+@import url('variables.css');
+
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00796b;
+    background-color: var(--primary-color);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -10,7 +13,7 @@
 }
 
 .btn:hover {
-    background-color: #004d40;
+    background-color: var(--primary-color-dark);
 }
 
 
@@ -67,7 +70,7 @@
 
 .icon:hover {
     transform: scale(1.1); /* Hover effect */
-    background-color: #128C7E; /* Darker on hover */
+    background-color: var(--icon-hover-color); /* Darker on hover */
 }
 
 
@@ -106,18 +109,3 @@
     display: block; /* Show the list when active */
 }
 
-
-.toggle-button {
-    cursor: pointer; /* Change cursor to pointer */
-    background-color: #00796b; /* Button background color */
-    color: white; /* Button text color */
-    border: none; /* Remove default border */
-    padding: 10px; /* Button padding */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1em; /* Font size */
-    margin-bottom: 10px; /* Space below button */
-}
-
-.toggle-button:hover {
-    background-color: #005f4b; /* Darker shade on hover */
-}
