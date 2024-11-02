@@ -65,10 +65,21 @@
             <h2>המלצות ותודות</h2>
             <p>
                 מעל למאתיים תלמידים שלימדתי בהצלחה במגוון מקצועות ומוסדות לימוד שונים <br>
-                 כאן תוכלו לראות חלק מהתודות שקיבלתי במהלך השנה האחרונה.<br><br>
+                כאן תוכלו לראות חלק מהתודות שקיבלתי במהלך השנה האחרונה.<br><br>
             </p>
-            <img src="resources/thank_you_img.png" alt="תמונות תודות מתלמידים" class="recommendation-photo">
+            <div class="image-gallery">
+                <img id="img1" class="gallery-photo" alt="תמונה 1" onclick="enlargeImage(this)">
+                <img id="img2" class="gallery-photo" alt="תמונה 2" onclick="enlargeImage(this)">
+                <img id="img3" class="gallery-photo" alt="תמונה 3" onclick="enlargeImage(this)">
+            </div>
+            
+            <!-- Modal for enlarged image -->
+            <div id="imageModal" class="modal" onclick="closeModal()">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImage">
+            </div>
         </div>
+
 
 
         <!-- most viewed courses-->
@@ -142,5 +153,6 @@
 
 
     <script src="scripts.js"></script>
+    <script src="recommendation_photos.js"></script>
 </body>
 </html>
