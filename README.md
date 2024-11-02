@@ -1,35 +1,61 @@
 # tonyhasson.github.io
 
+## Next Steps:
 
-next steps:
+### 0. First things first - think how to "make it ready" for delivery.
+   - **Design wise:**
+     - ~~0.1. Change title of website~~
+     - 0.2. Buy a domain for the website
+     - 0.3. Improve color scheme
 
-.0. first things first - think how to "make it ready" for delivery. 
-    * design wise -
-        ~~.1. change title of website~~
-        .2. buy a domain for the website
-        .3. better colors
-    * content wise -
-        .1.  write about the paid content
-        .2. after intro to Computer Science is uploaded , 
-        fill the page with data
-        .3. add info about the other data availble (sapir)
+   - **Content wise:**
+     - 0.1. Write about the paid content
+     - 0.2. After the Introduction to Computer Science course is uploaded, fill the page with data
+     - 0.3. Add info about other available content (Sapir)
 
+### 1. Sort the HTML and clean up the CSS
+### 2. Make the other HIT pages like the OOP page
+### 3. Add more free content that is already available
+### 4. Add info about the paid content and make it appealing
+### 5. Change color scheme - suggestion: dark blue, baby blue, and white
+### 6. ~~Keep the contact section always open~~
+### 7. Make the profile photo fit better
+### 8. Improve the font style
+### 9. ~~Add recommendations section~~
+### 10. Add a "Back to Home" button
+### 11. Add a burger menu on every page
+### 12. Make the pages more scalable
+### 13. Consider moving the burger menu to the top
+### 14. Add a WhatsApp icon that follows the user
+### 15. fix whatsapp icon.
 
-.13. sort the html +  clean the css
-.1. make the other HIT pages like the oop page
-.2. add more free content already available
-.3. add info about the paid content available , make it appealing
-.4. change colors - dandi suggested :dark blue , baby blue and white
-.5. ~~change contact so it will always be open~~
-.6. make the profile photo fit better
-.7. make the font look better
-.8. ~~add recommendations~~
-.9. add back home button
-.10. add burger in every page
-.11. make the pages more scalable.
-.12. maybe change the burger to the top
+---
 
+## Home Page
+- After the recommendations section, add quick links to the top courses.
 
-# recommendation section
-.1. make the photos clickable and enlarge them
-.2. add more photos that you can slide , infinite loop.
+## About Me
+- Write a bit about learning self-taught skills. Consider adding a preview video.
+
+## Recommendation Section
+1. Make the photos clickable and allow them to enlarge.
+2. Add more photos that users can slide through in an infinite loop.
+
+---
+
+## Courses Pages
+
+1. At the top, write a brief introduction to the course.
+2. Add a toggle section with buttons for:
+   - Free content
+   - Paid content
+   - Include a brief description of costs for purchasing access.
+3. Display all the course content and links (only accessible to registered users).
+
+---
+
+## Future Development:
+
+### Backend
+1. Create user accounts and a user page displaying all purchased courses.
+2. Add email verification upon user sign-up.
