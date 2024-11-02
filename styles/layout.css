@@ -43,6 +43,7 @@
         width: 60px; /* Adjust icon size for tablets */
         height: 60px;
     }
+
 }
 
 /* Media Query for Mobile Devices */
@@ -62,5 +63,16 @@
     .icon {
         width: 50px; /* Adjust icon size for mobile */
         height: 50px;
+    }
+    .section {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        align-items: center; /* Center links */
+    }
+    
+    .lesson-link {
+        margin-right: 0; /* Remove right margin */
+        text-align: center; /* Center text in link */
+        margin-bottom: 15px; /* Adjust space below links */
     }
 }
