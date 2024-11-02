@@ -147,6 +147,16 @@
 }
 
 /* Courses List */
+
+.featured-courses-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+
+
 .courses-list {
     display: none; /* Initially hidden */
     list-style-type: none;

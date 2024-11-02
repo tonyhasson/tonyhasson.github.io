@@ -171,3 +171,17 @@ ul {
     line-height: 1.2; /* Align bullet with text */
 }
 
+
+
+.lesson-topics {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.lesson-topics li {
+    background: #e0f2f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
