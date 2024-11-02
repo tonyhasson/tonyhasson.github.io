@@ -55,19 +55,35 @@
 
 .icon {
     width: 80px; /* Default icon size */
-    height: 80px;
+    height: 80px; /* Keep height the same as width for square aspect ratio */
     border-radius: 50%; /* Circular icon button */
     transition: transform 0.3s, background-color 0.3s;
-    /* background-color: #25D366; WhatsApp brand color or adjust per icon */
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    object-fit: cover; /* Ensures the image fits within the circle without distortion */
 }
 
 .icon:hover {
     transform: scale(1.1); /* Hover effect */
     background-color: #128C7E; /* Darker on hover */
+}
+
+
+
+
+
+.follow-icon-button {
+    position: fixed; /* Fixed positioning to stay in the same place relative to the viewport */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right of the viewport */
+    z-index: 1000; /* Ensure it appears above other elements */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.follow-icon-button:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }
 
 
@@ -80,7 +96,7 @@
 }
 
 .topics-list {
-    display: none; /* Initially hide the list */
+    /* display: none; /* Initially hide the list */
     padding: 0;
     margin: 0;
     list-style-type: none; /* Removes bullet points */
