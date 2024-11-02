@@ -28,5 +28,24 @@ function toggleVideos(elementID) {
 }
 
 
-// Add event listener for the burger menu icon
-document.querySelector('.burger-icon').addEventListener('click', openMenu);
+
+// Function to toggle the visibility of the topics list
+function toggleTopics(elementID) {
+    const topicsList = document.getElementById(elementID);
+    topicsList.classList.toggle('active'); // Toggle the 'active' class
+    
+}
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     // Ensure the function is accessible globally
+//     window.toggleTopics = function(elementID) {
+//         const topicsList = document.getElementById(elementID);
+//         topicsList.classList.toggle('active'); // Toggle the 'active' class
+        
+//         // Update button text based on the visibility
+//         const buttonText = topicsList.classList.contains('active') ? 'הסתיר נושאים' : 'הצג נושאים';
+//         document.querySelector('.toggle-button').textContent = buttonText;
+//     };
+// });
+
