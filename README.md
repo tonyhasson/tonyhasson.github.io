@@ -6,7 +6,7 @@
    - **Design wise:**
      - ~~0.1. Change title of website~~
      - 0.2. Buy a domain for the website
-     - 0.3. Improve color scheme
+     - 0.3. ~~Improve color scheme~~
 
    - **Content wise:**
      - 0.1. ~~ Write about the paid content~~
@@ -17,7 +17,7 @@
 ### 2. ~~Make the other HIT pages like the OOP page~~
 ### 3. Add more free content that is already available
 ### 4. ~~Add info about the paid content and make it appealing~~
-### 5. Change color scheme - suggestion: dark blue, baby blue, and white
+### 5. ~~Change color scheme - suggestion: dark blue, baby blue, and white~~
 ### 6. ~~Keep the contact section always open~~
 ### 7. Make the profile photo fit better
 ### 8. Improve the font style
@@ -32,12 +32,10 @@
 ## Home Page
 - ~~After the recommendations section, add quick links to the top courses.~~
 
-## About Me
-- Write a bit about learning self-taught skills. Consider adding a preview video.
 
 ## Recommendation Section
-1. Make the photos clickable and allow them to enlarge.
-2. Add more photos that users can slide through in an infinite loop.
+1. ~~Make the photos clickable and allow them to enlarge.~~
+2. ~~Add more photos that users can slide through in an infinite loop.~~
 
 ---
 

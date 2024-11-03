@@ -68,7 +68,6 @@ h2 {
 
 .section ul li {
     margin-bottom: 10px;
-    color:
 }
 
 .section ul ul {
@@ -142,6 +141,7 @@ ul {
 }
 
 .price-section p {
+    text-align: center;
     font-size: 1.2em;
     color: var(--text-color-dark);
 }
@@ -187,8 +187,8 @@ ul {
 }
 
 .lesson-topics li {
-    background: var(--lesson-topics-background);
-    color:white;
+    /* background: var(--lesson-topics-background); */
+    color:var(--text-color-middle);
     margin: 5px 0;
     padding: 8px;
     border-radius: 5px;

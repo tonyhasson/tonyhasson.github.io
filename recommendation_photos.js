@@ -5,7 +5,7 @@ const imgElements = [
     document.getElementById("img3")
 ];
 
-const totalImages = 10;
+const totalImages = 27;
 let currentIndexes = [0, 1, 2];
 
 // Function to load an image
